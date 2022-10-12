@@ -1,0 +1,168 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8de712d228a0bb41889858929be3e28, type: 3}
+  m_Name: Level
+  m_EditorClassIdentifier: 
+  _movePositionsText: 0000000000000011111111111001100101001100110110110110011110011111001101011010100110101101010011111111111000011101110000000000000000
+  <LevelSize>k__BackingField: {x: 13, y: 10}
+  <ScatterTicks>k__BackingField: 5
+  <ChaseTicks>k__BackingField: 25
+  <FrightenedTicks>k__BackingField: 10
+  <PlayerPosition>k__BackingField: {x: 1, y: 3}
+  <PlayerSpeed>k__BackingField: 1
+  <PlayerLives>k__BackingField: 3
+  _enemies:
+  - Enemy: {fileID: 11400000, guid: 14a37d40a3070b748b54e7f708949b0a, type: 2}
+    DefaultPosition: {x: 7, y: 4}
+    ScatterPosition: {x: -2, y: 2}
+    Score: 100
+    SpeedMultiplier: 1
+  - Enemy: {fileID: 11400000, guid: d02148da864c999409e3ac92bb13693d, type: 2}
+    DefaultPosition: {x: 11, y: 5}
+    ScatterPosition: {x: 20, y: 20}
+    Score: 100
+    SpeedMultiplier: 1
+  _movePositions:
+  - {x: 1, y: 1}
+  - {x: 1, y: 2}
+  - {x: 1, y: 3}
+  - {x: 1, y: 4}
+  - {x: 1, y: 5}
+  - {x: 1, y: 6}
+  - {x: 1, y: 7}
+  - {x: 2, y: 1}
+  - {x: 2, y: 2}
+  - {x: 2, y: 3}
+  - {x: 2, y: 4}
+  - {x: 2, y: 5}
+  - {x: 2, y: 6}
+  - {x: 2, y: 7}
+  - {x: 3, y: 1}
+  - {x: 3, y: 4}
+  - {x: 3, y: 7}
+  - {x: 3, y: 8}
+  - {x: 4, y: 1}
+  - {x: 4, y: 3}
+  - {x: 4, y: 4}
+  - {x: 4, y: 5}
+  - {x: 4, y: 6}
+  - {x: 4, y: 7}
+  - {x: 4, y: 8}
+  - {x: 5, y: 1}
+  - {x: 5, y: 2}
+  - {x: 5, y: 3}
+  - {x: 5, y: 7}
+  - {x: 5, y: 8}
+  - {x: 6, y: 1}
+  - {x: 6, y: 5}
+  - {x: 6, y: 6}
+  - {x: 6, y: 7}
+  - {x: 7, y: 1}
+  - {x: 7, y: 2}
+  - {x: 7, y: 3}
+  - {x: 7, y: 4}
+  - {x: 7, y: 5}
+  - {x: 7, y: 6}
+  - {x: 7, y: 7}
+  - {x: 7, y: 8}
+  - {x: 8, y: 1}
+  - {x: 8, y: 3}
+  - {x: 8, y: 4}
+  - {x: 8, y: 7}
+  - {x: 8, y: 8}
+  - {x: 9, y: 1}
+  - {x: 9, y: 4}
+  - {x: 9, y: 5}
+  - {x: 9, y: 6}
+  - {x: 9, y: 7}
+  - {x: 9, y: 8}
+  - {x: 10, y: 1}
+  - {x: 10, y: 2}
+  - {x: 10, y: 3}
+  - {x: 10, y: 4}
+  - {x: 10, y: 7}
+  - {x: 11, y: 1}
+  - {x: 11, y: 2}
+  - {x: 11, y: 3}
+  - {x: 11, y: 4}
+  - {x: 11, y: 5}
+  - {x: 11, y: 6}
+  - {x: 11, y: 7}
+  _energizerPelletsPositions:
+  - {x: 1, y: 1}
+  - {x: 2, y: 3}
+  _pelletsPositions:
+  - {x: 1, y: 2}
+  - {x: 1, y: 3}
+  - {x: 1, y: 4}
+  - {x: 1, y: 5}
+  - {x: 1, y: 6}
+  - {x: 1, y: 7}
+  - {x: 2, y: 1}
+  - {x: 2, y: 2}
+  - {x: 2, y: 4}
+  - {x: 2, y: 5}
+  - {x: 2, y: 6}
+  - {x: 2, y: 7}
+  - {x: 3, y: 1}
+  - {x: 3, y: 4}
+  - {x: 3, y: 7}
+  - {x: 3, y: 8}
+  - {x: 4, y: 1}
+  - {x: 4, y: 3}
+  - {x: 4, y: 4}
+  - {x: 4, y: 5}
+  - {x: 4, y: 6}
+  - {x: 4, y: 7}
+  - {x: 4, y: 8}
+  - {x: 5, y: 1}
+  - {x: 5, y: 2}
+  - {x: 5, y: 3}
+  - {x: 5, y: 7}
+  - {x: 5, y: 8}
+  - {x: 6, y: 1}
+  - {x: 6, y: 5}
+  - {x: 6, y: 6}
+  - {x: 6, y: 7}
+  - {x: 7, y: 1}
+  - {x: 7, y: 2}
+  - {x: 7, y: 3}
+  - {x: 7, y: 4}
+  - {x: 7, y: 5}
+  - {x: 7, y: 6}
+  - {x: 7, y: 7}
+  - {x: 7, y: 8}
+  - {x: 8, y: 1}
+  - {x: 8, y: 3}
+  - {x: 8, y: 4}
+  - {x: 8, y: 7}
+  - {x: 8, y: 8}
+  - {x: 9, y: 1}
+  - {x: 9, y: 4}
+  - {x: 9, y: 5}
+  - {x: 9, y: 6}
+  - {x: 9, y: 7}
+  - {x: 9, y: 8}
+  - {x: 10, y: 1}
+  - {x: 10, y: 2}
+  - {x: 10, y: 3}
+  - {x: 10, y: 4}
+  - {x: 10, y: 7}
+  - {x: 11, y: 1}
+  - {x: 11, y: 2}
+  - {x: 11, y: 3}
+  - {x: 11, y: 4}
+  - {x: 11, y: 5}
+  - {x: 11, y: 6}
+  - {x: 11, y: 7}
+  <Pellet>k__BackingField: {fileID: 11400000, guid: cf9f2a586168fb84ebe487864e2a21b8, type: 2}
+  <EnergizerPellet>k__BackingField: {fileID: 11400000, guid: f5e3950b693bf524089f7e6335e34567, type: 2}

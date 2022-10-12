@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce7a77f08f752874391850fb8d725238, type: 3}
+  m_Name: Enemy 1
+  m_EditorClassIdentifier: 
+  Speed: 1.2
+  ChaseStrategy: {fileID: 11400000, guid: 817f6f9be16c2a34f87d53d6b1c7747c, type: 2}

@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3755a883a3b501a4eaf5b3cf5aabf102, type: 3}
+  m_Name: PlayerLives
+  m_EditorClassIdentifier: 
+  _level: {fileID: 11400000, guid: 646ae34b7ff83b8458b81a79304e54fd, type: 2}
+  _finishGameChannel: {fileID: 11400000, guid: 164bf628bb214cf4baaf5600ecd35fee, type: 2}

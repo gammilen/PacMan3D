@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8929427337ae49341b0b1057d98ab7ce, type: 3}
+  m_Name: PlayerRegistrar
+  m_EditorClassIdentifier: 
+  _level: {fileID: 11400000, guid: 646ae34b7ff83b8458b81a79304e54fd, type: 2}
+  _onLevelEntities: {fileID: 11400000, guid: 26c736a1a1885874bb7c402fd7fa1dd6, type: 2}
+  _playerLives: {fileID: 11400000, guid: 3080b2a1b9151f9438316af5ccbfe0a5, type: 2}
+  _player: {fileID: 11400000, guid: 2e2eb78cb717b864781b00329198b72c, type: 2}
